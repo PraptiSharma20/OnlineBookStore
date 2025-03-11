@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "header"><!--class attribute will help to apply CSS -->
+        <h1>
+            WELCOME TO THE ONLINE BOOK STORE
+        </h1>
+        <nav>
+            <ul>
+                <li><a href = "index_page.html">
+                    Index Page
+                    </a>
+                </li>
+                <li><a href = "login_page.html">
+                    Login Page
+                    </a>
+                </li>
+                <li><a href = "catalogue_page.html">
+                    Catalogue Page
+                    </a>
+                </li>
+                <li><a href = "registration_page.html">
+                    Registration Page
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div><!--action if for link(for keeping the page static or empty) ; method tells which opertions is to be used-->
+    <div class="Form-main-container"><!--form has 2 attribute method and action-->
+        <form action="#" method="POST"><!--types of methods operations get(backened data),post(jb tk save na ho),put(modify data),delete-->
+        <label for="username">Username</label><!--it is id not text can't see on user interface-->
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <br>
+        <button type="submit">Login</button>
+        </form>
+    </div><!--label tag used to indicate where content should be put-->
+    <footer>
+        <p>
+            &copy;2025 Online Book Store.
+            <br><!--one line space-->
+            All Rights are reserved.
+        </p>
+     </footer>
+</body>
+</html>

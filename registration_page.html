@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--support character set, has 2 version UTF-8 and UTF-16-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--responsiveness-->
+    <title>onlinestore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "header"><!--class attribute will help to apply CSS -->
+        <h1>
+            WELCOME TO THE ONLINE BOOK STORE
+        </h1>
+        <nav>
+            <ul>
+                <li><a href = "index_page.html">
+                    Index Page
+                    </a>
+                </li>
+                <li><a href = "login_page.html">
+                    Login Page
+                    </a>
+                </li>
+                <li><a href = "catalogue_page.html">
+                    Catalogue Page
+                    </a>
+                </li>
+                <li><a href = "registration_page.html">
+                    Registration Page
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="Form-container"><!--when we don't need data or validate data-->
+        <form action="#" method="POST"><!--operations get(backened data),post(jb tk save na ho),put(modify data),delete-->
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>   
+        <br>
+        <label for="username">Username</label><!--it is id not text can't see on user interface-->
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="confirmPassword">ConfirmPassword</label>
+        <input type="ConfirmPassword" id="ConfirmPassword" name="ConfirmPassword" required>
+        <br>
+        <br>
+        <button type="submit">SignUp</button><br>
+        </form>
+    </div><!--label tag used to indicate where content should be put-->
+    <footer class="rtg">
+        <p>
+            &copy;2025 Online Book Store.
+            <br><!--one line space-->
+            All Rights are reserved.
+        </p>
+     </footer>
+</body>
+</html>
